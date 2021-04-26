@@ -3,7 +3,7 @@ Type: Package
 Title: Building R Packages wweek 4 assignment
 Version: 0.1
 Date: 2021-04-26
-Author: Glenn Ticket <glennticket@somedomain.com>
+Author: Michael Poulsen
 Maintainer: Michael Poulsen
 Description: This is my week 4 assignment of the Johns Hopkins University MOOC
     Building R Packages on Coursera
