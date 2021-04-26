@@ -1,0 +1,28 @@
+---
+title: "details"
+author: "Michael Poulsen"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This package permits to display the accident data for a specific year and a specific US state in a graphical manner.
+
+## Functions
+
+The following functions are part of this package:
+- fars_read()
+- make_filename()
+- fars_read_years()
+- fars_summarize_years()
+- fars_map_state()
+## Examples
+
+Running the below statment will create the file name for the accidents data file which contains the information of the year 2013.
+```{r, echo=FALSE, results='asis'}
+library(BldRPack)
+make_filename(2013)
+```

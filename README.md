@@ -1,2 +1,3 @@
-# MyRStuff
-All My R related Stuff goes in here
+# MyBuild
+My Johns Hopkins Coursera course on building R packages
+[![Travis-CI Build Status](https://travis-ci.org/gticket/buildingRPackages.svg?branch=master)](https://travis-ci.org/gticket/buildingRPackages)
